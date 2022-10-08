@@ -74,6 +74,7 @@ function handleBackground(icon, img) {
     case "10d":
     case "10n":
       img.src = rain;
+      break;
     case "11d":
     case "11n":
       img.src = thunderstorm;

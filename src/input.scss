@@ -14,21 +14,34 @@ body {
   width: max-content;
   background-color: #1746a2;
   .form {
+    width: 100%;
     .input {
-      padding: 0.2rem;
+      padding: 0.3rem;
       border: none;
       border-radius: 0.5rem;
+      width: 97%;
+      transition: all 0.4s;
       &:focus {
         outline: none;
+        box-shadow: 1px 1px 15px 4px rgba(95, 157, 247, 0.7);
+        scale: 1.05;
       }
     }
   }
   .weatherInfos {
     text-align: center;
+    color: #dff6ff;
+    margin-top: 1rem;
     img {
       width: 13rem;
       height: 13rem;
       border-radius: 50%;
+    }
+    p {
+      margin: 0.5rem 0;
+      &.description {
+        text-transform: capitalize;
+      }
     }
   }
 }

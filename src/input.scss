@@ -1,0 +1,34 @@
+body {
+  background-color: #5f9df7;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+// main
+.main {
+  margin: 0 auto;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  width: max-content;
+  background-color: #1746a2;
+  .form {
+    .input {
+      padding: 0.2rem;
+      border: none;
+      border-radius: 0.5rem;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  .weatherInfos {
+    text-align: center;
+    img {
+      width: 13rem;
+      height: 13rem;
+      border-radius: 50%;
+    }
+  }
+}
